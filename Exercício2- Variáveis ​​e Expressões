@@ -1,0 +1,7 @@
+#Leia um valor de comprimento em polegadas e apresente-o convertido em centímetros.
+
+x = float(input("Digite o comprimento em polegadas: "))
+
+cm = x * 2.54
+
+print(f"{cm:.2f} centimentros")
