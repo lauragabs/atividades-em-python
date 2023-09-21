@@ -1,0 +1,11 @@
+#Faça um programa que leia o valor da hora de trabalho (em reais) e número de horas trabalhadas no mês. Imprima o valor a ser pago ao funcionário, adicionando 10% sobre o valor calculado
+
+horas = int(input("Digite a quantidade de horas trabalhadas: "))
+vhoras = float(input("Digite o valor da hora trabalhada: "))
+
+sbruto = horas * vhoras
+adicionado = sbruto * 0.1
+
+sliquido = sbruto + adicionado
+
+print(f"Valor a ser pago R${sliquido:.2f}")
