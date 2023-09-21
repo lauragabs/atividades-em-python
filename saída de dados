@@ -1,0 +1,6 @@
+idade = 32
+salario = 4560.5
+nome = "Mariana"
+sexo = "F"
+
+print("A funcionária %s, sexo %s, ganha %.2f e tem %d anos" % (nome,sexo,salario,idade))
