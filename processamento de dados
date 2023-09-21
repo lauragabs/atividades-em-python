@@ -1,0 +1,13 @@
+x = 5
+y = 3
+adicao = x+y
+subtracao = x-y
+multiplicacao = x*y
+divisao = x/y
+
+print(f"X= {x}")
+print(f"Y= {y}")
+print(f"Adição= {adicao}")
+print(f"Subtração= {subtracao}")
+print(f"Multiplicação= {multiplicacao}")
+print(f"Divisão= {divisao:.2f}")
