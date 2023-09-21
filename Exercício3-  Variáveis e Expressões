@@ -1,0 +1,9 @@
+#Aluno:Laura Gabriely Barbosa Freitas  RA:5159732
+#Exercício 13. Leia um valor de massa em quilogramas e apresente-o convertido em libras.
+
+
+x = float(input("Digite a massa em quilogramas: "))
+
+libra = x * 2.20462
+
+print(f"{libra:.2f} libras")
