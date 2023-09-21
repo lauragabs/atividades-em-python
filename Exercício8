@@ -1,0 +1,11 @@
+#Receba o salário-base de um funcionário. Calcule e imprima o salário a receber, sabendo-se que esse funcionário tem uma gratificação de 5% sobre o salário-base. Além disso, ele paga 7% de imposto sobre o salário-base
+
+
+sbase = int(input("Digite o Salário base do funcionário: "))
+
+gratificacao = sbase * 0.05
+imposto = sbase * 0.07
+
+sliquido = sbase + gratificacao - imposto
+
+print(f"Valor a ser pago R${sliquido:.2f}")
