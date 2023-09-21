@@ -1,0 +1,22 @@
+#Escreva um programa de ajuda para vendedores. A partir de um valor total lido, mostre:
+#_ o total a pagar com desconto de 10%;
+#_ o valor de cada parcela, no parcelamento de 3_ sem juros;
+#_ a comissão do vendedor, no caso da venda ser a vista (5% sobre o valor com desconto)
+#_ a comissão do vendedor, no caso da venda ser parcelada (5% sobre o valor total)
+
+vtotal = float(input("Escreva o valor total: "))
+
+print(" ")
+
+desconto10 = vtotal * 0.1
+vdesc10 = vtotal - desconto10
+print(f"Valor com desconto de 10%: R${vdesc10:.2f}")
+
+vparcela = vtotal / 3
+print(f"Valor do parcelamneto em 3 vezes sem juros: {vparcela:.2f}")
+
+print("--------------------------------------------------------")
+print("Comissão do vendedor")
+
+cavista = vdesc10 * 0.05
+print(f"A vista: R${cavista:.2f}")
