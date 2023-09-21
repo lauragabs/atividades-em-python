@@ -1,0 +1,22 @@
+nome1 = input("Nome da primeira pessoa: ")
+salario1 = float(input("Salario da primeira pessoa: "))
+
+nome2 = input("Nome da segunda pessoa: ")
+salario2 = float(input("Salario da segunda pessoa: "))
+
+idade = int(input("Digite uma idade: "))
+sexo = input("Digite um sexo (F/M)")
+
+print(" ")
+
+print("-----------------------------")
+print("Dados da primeira pessoa")
+print(f"Nome: {nome1}")
+print(f"Salário: {salario1:.2f} ")
+print("-----------------------------")
+print("Dados da segunda pessoa")
+print(f"Nome: {nome2}")
+print(f"Salário: {salario2:.2f}")
+print("-----------------------------")
+print(f"Idade: {idade}")
+print(f"Sexo: {sexo}")
