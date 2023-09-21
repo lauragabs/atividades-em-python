@@ -1,0 +1,12 @@
+#Leia um número inteiro e imprima o seu antecessor e o seu sucessor. Em seguida, imprima a soma do sucessor de seu triplo com o antecessor de seu dobro.
+
+x = int(input("escreva um número inteiro: "))
+
+antecessor = x-1
+sucessor = x+1
+
+soma = ((3 * x)+1) + ((2 * x)- 1)
+
+print(f"Antecessor= {antecessor}")
+print(f"Sucessor= {sucessor}")
+print(f"Soma= {soma}")
