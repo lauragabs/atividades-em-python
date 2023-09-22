@@ -1,0 +1,19 @@
+#Um produto vai sofrer aumento de acordo com a tabela abaixo. Leia o preço antigo, calcule e escreva o 
+preço novo, e escreva uma mensagem em função do preço novo, ressaltando o percentual na mensagem.
+
+pantigo = float(input("Digite o preço antigo: "))
+
+if pantigo<50:
+    aumento=pantigo*0.05
+    porc=5
+elif pantigo>100:
+    aumento=pantigo*0.15
+    porc=15
+else:
+    aumento=pantigo*0.1
+    porc=10
+
+pnovo=pantigo+aumento
+
+print(f"Preço novo: R${pnovo}")
+print(f"Aumento: {porc}%")
