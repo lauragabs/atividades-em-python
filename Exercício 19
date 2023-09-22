@@ -1,0 +1,21 @@
+#Escreva um programa que, dado o valor da venda, imprima a comissão que deverá ser paga ao vendedor.
+
+vvenda = float(input("Digite o valor das vendas: "))
+
+porc14 = vvenda * 0.14
+porc16 = vvenda * 0.16
+
+if vvenda>20000:
+    c=400+porc14
+elif vvenda>40000:
+    c=500+porc14
+elif vvenda>60000:
+    c=550+porc14
+elif vvenda>90000:
+    c=600+porc14
+elif vvenda>100000:
+    c=650+porc14
+else:
+    c=700+porc16
+
+print(f"Comissão: {c:.2f}")
