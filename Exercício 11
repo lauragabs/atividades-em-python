@@ -1,0 +1,13 @@
+#Escreva um programa que, dados dois números inteiros, mostre na tela o maior deles, assim como a diferença existente entre ambos.
+
+x = int(input("Escreva o primeiro número: "))
+y = int(input("Escreva o segundo número: "))
+
+if x>y:
+    print(f"{x} é maior")
+    dif = x-y
+    print(f"Diferença: {dif}")
+else:
+    print(f"{y} é maior")
+    dif= y-x
+    print(f"Diferença: {dif}")
