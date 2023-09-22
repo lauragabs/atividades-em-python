@@ -1,0 +1,30 @@
+#Faça um programa que receba três números e mostre-os em ordem crescente.
+
+x = int(input("primeiro número: "))
+y = int(input("segundo número: "))
+z = int(input("terceiro número: "))
+
+if x>y and x>z:
+    primeiro=x
+elif x<y and x<z:
+    terceiro=x
+else:
+    segundo=x
+
+if y>x and y>z:
+    primeiro=y
+elif y<x and y<z:
+    terceiro=y
+else:
+    segundo=y
+
+if z>y and z>x:
+    primeiro=z
+elif z<y and z<x:
+    terceiro=z
+else:
+    segundo=z
+
+print(primeiro)
+print(segundo)
+print(terceiro)
