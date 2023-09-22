@@ -1,0 +1,18 @@
+#O custo ao consumidor de um carro novo é a soma do custo de fábrica, da comissão do distribuidor, e
+# dos impostos. A comissão e os impostos são calculados sobre o custo de fábrica, de acordo com a tabela abaixo
+
+custof = float(input("Digite o custo de fábrica: "))
+
+if custof>12000:
+    dist=custof*0.05
+    imposto=0
+elif custof>25000:
+    dist=custof*0.1
+    imposto=custof*0.15
+else:
+    dist=custof*0.15
+    imposto=custof*0.2
+
+valor=custof+dist+imposto
+
+print(f"Custo ao consumidor: R${valor:.2f}")
