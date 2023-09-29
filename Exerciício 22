@@ -1,0 +1,8 @@
+#Faça um programa que leia um número inteiro positivo N e imprima todos os números naturais de 0 até N em ordem crescente.
+
+N = int(input("digite um número positivo: "))
+if N < 0:
+    print("digite um numero inteiro positivo")
+else:
+    for loop in range(N+1):
+        print(loop)
