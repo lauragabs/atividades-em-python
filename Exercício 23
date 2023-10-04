@@ -1,0 +1,12 @@
+#Faça um programa que leia um número inteiro N e depois imprima os N primeiros números naturais ímpares.
+
+n = int(input("digite um numero inteiro: "))
+
+contador = 0
+impar = 1
+
+while contador<n:
+    if impar % 2 != 0:
+        print(impar)
+        contador = contador + 1
+    impar = impar + 1
